@@ -1,0 +1,253 @@
+References:
+
+Projectpro | https://www.projectpro.io/recipes/install-and-use-spacy-models | Helped in understanding various spacy models
+Stack Overflow | https://stackoverflow.com/questions/69284181/modulenotfounderror-no-module-named-en-core-web-sm | Helped in understanding usage of en-core-web-sm
+Stack Overflow | https://stackoverflow.com/questions/40288323/what-do-spacys-part-of-speech-and-dependency-tags-mean | Helped in understanding POS tagging in spacy
+Real Python | https://realpython.com/natural-language-processing-spacy-python/#part-of-speech-tagging | Helped in understanding part-of-speech-tagging
+symbl | https://symbl.cc/en/2588/ | Helped in understanding Block Character properties
+Analytics Vidya | https://discuss.analyticsvidhya.com/t/typeerror-argument-other-has-incorrect-type-expected-spacy-tokens-token-token-got-str-in-spacy/67014 | Helped in understanding Spacy token type error
+Avinash Reddy Nuthalapati | avi.n-54@ou.edu | Helped in understanding parameter processing from individual function to the main function
+GeeksforGeeks | https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy/ | Helped in understanding Named Entity Recognition in Spacy
+TowardsDataScience | https://towardsdatascience.com/a-short-introduction-to-nlp-in-python-with-spacy-d0aa819af3ad | Helped in understanding the text processing functions 
+spacy.io | https://spacy.io/usage/spacy-101 | Helped in understanding Linguistic annotations and tokenization functions and attributes
+onlinegdb | https://www.onlinegdb.com/online_python_interpreter | Helped in validating regular expressions
+Google | https://developers.google.com/edu/python/regular-expressions | Helped in understanding various methods in regular expressions
+
+
+Test:
+
+/home/gnani/Project_1/docs/maildir/bailey-s/all_documents/7.
+
+
+
+maildir/allen-p/_sent_mail/101.
+
+ IP: 64.216.90.105                  # I.P
+ Sub: 255.255.255.248
+ gate: 64.216.90.110
+ DNS: 151.164.1.8
+
+maildir/allen-p/_sent_mail/82.
+
+October 2000  $1,395,000            # USD
+November 2000 $1,350,000
+December 2000 $1,395,000
+January 2001  $   669,600
+
+$25,000
+$4,000
+$184,000
+$0
+
+
+x = ['man','boy','father','son','brother','uncle','grandfather','boyfriend','husband','guy','dude','bachelor','businessman','king','prince','lord','sir','actor','host','waiter',
+        'woman','mother','daughter','sister','aunt','grandmother','girlfriend','wife','lady','girl','princess','queen','actress','maid','lady-in-waiting','mother','waitress','hostess']
+
+
+
+Date Formats Identified:
+-------------------------
+
+#   Dec '03
+#   Dec. 29
+
+"Fri, 11 May 2001"
+
+13 Dec 2000 // 1 Feb
+
+"Aug. 28th" 
+
+"11/06/2000" or "11-06-2000" or "11-06-00"   ----- r'(\b(\d{1,2})[/-](\d{1,2})[/-](\d{2}|\d{4})\b|'
+
+"Wednesday, April 18, 2001"
+
+"Monday, April 16, 2001"
+
+"12/01", "7/11"
+
+"11/28/00"
+
+"September 25 to September 27"
+
+'''
+October 2000 
+November 2000 
+December 2000 
+'''
+
+
+
+"Jan-01 thru Dec-01"
+
+"Tuesday, Oct. 10th"
+
+"Date:  Wednesday, October 11th"
+
+"May 2010"
+
+
+date_regex = re.compile(
+        r'(\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\w){0,6} \d{1,4}?(th)?\b|'               #"May 2010", "September 22"
+        r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\w){0,6}[.-]\s{0,1}\d{2}(th)?\b|'   #"Aug. 28th", "July. 12th"
+        r'\b\d{1,2}/\d{1,2}\b|'           #"7/11"
+        r'\b\d{1,2}-\d{1,2}\b|'
+        r'\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(\w){0,6}, \d{1,2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\w){0,6} \d{2,4}?\b|'
+        r'\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(\w){0,6}, (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\w){0,6} \d{1,2}, \d{2,4}?\b|'
+        r'\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(\w){0,6}, (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\w){0,6}(.)? \d{1,2}(th)?\b)'
+        )
+
+
+
+
+
+Phone Numbers Identified:
+--------------------------
+docs/maildir/arora-h/all_documents/
+docs/maildir/arora-h/discussion_threads/
+docs/maildir/arora-h/inbox/saved_mail/
+docs/maildir/arora-h/inbox/
+
+(212-310-8000)
+
+212-310-8000,
+
+212-310-8000.
+
+212 469 5673
+
+212 469-5673
+
+( 713-853-1507)
+
+(=713) 646-3302
+
+(713) = 507-6466
+
++1 212 641-6663
+
++44 207 783 2071
+
+3-5085
+
+374 3957
+
+(615)-329-8922
+
+(615) 292-7414
+
++44 207 783 2071
+
+(281)251-6210
+
+Ph. O 0260 254698/254207
+    R      254696
+Fax        254922/254689
+Mobile 09824066305
+
+011442077834188.
+
+Tel: +44 (0)1483 756246
+Fax:+44 (0)1483 756300
+
+12831939
+
+613159912
+
+092 589 770
+
+1-866-220-3355
+
+416.203.6661
+
+0800-0232959
+0800-900986
+
+
+Tel. - 91-11-6311608,6918079
+Fax. -91-11-6918079
+
+
+
+
+
+
+
+
+
+
+
+pipenv install spacy
+
+spacy.info()
+
+nlp = spacy.blank("en")
+
+nlp?
+
+doc = nlp("Brandon's the  quick brown fox jumped over the lazy dog!")
+
+for token in doc:
+    print(token.text)
+
+
+tok = doc[5]    # fox
+
+print(type(tok))
+
+tok.is_alpha
+tok.is_punct
+tok.like_num           # Numbers and text as well
+
+================
+
+pipenv run python -m spacy download en_core_web_sm
+
+nlp = spacy.load('en_core_web_sm')
+
+
+
+for token in doc:
+    print(token.text+'======='+token.pos_)
+
+for token in doc:
+    print(token.text+'======='+token.pos_+'======='+token.dep_+'======='+token.head.text)
+
+
+foe ent in doc.ents:
+    print(ent.text+'---------'+ent.label_)
+
+
+# Matcher - regex utility
+
+from spacy.matcher import Matcher
+
+matcher = Matcher(nlp.vocab)
+
+pattern = [{"TEXT":"Android"}, {"TEXT":"X"}]
+
+matcher.add("ANDROID_PATTERN", [pattern])
+
+doc = nlp("------------")
+
+for token in doc:
+    print(token.text+'======='+token.pos_+'======='+token.dep_+'======='+token.head.text)
+
+matches = matcher(doc)
+
+print(matches)  # span, hashes of document
+
+for match_id, start, end in matches:
+    matched_span = doc[start:end]
+    print(matched_span)
+
+
+
+pattern1 = [{"TEXT" : "Android"}, {"TEXT" : "X"}]
+
+pattern2 = [{"IS_DIGIT" : True}, {"LOWER" : "android"},
+            {"IS_PUNCT" : True, "OP" : "?"},
+            {"POS" : "NOUN"}]
+
+
+#print(doc[1].orth)     # hash for the word
+

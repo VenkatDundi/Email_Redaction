@@ -1,0 +1,171 @@
+File : '/home/gnani/Project_1/12.'
+  Redacted Entities : NAME
+  Destination : 'output/'
+  Words Redacted = 15
+ Unique Words = ['Amy Spoede/', 'Harry Arora@ECT', 'Harry Arora\nX-cc', 'Mike', 'Amy Spoede/HOU/ECT', 'Folders\\All', 'Elise Clark/Corp', 'Elise', 'amy.spoede@enron.com\nTo', 'Elise Clark/Corp/Enron', 'DealBench', 'Harry', 'Michael K Patrick', 'Amy Spoede\nX-To', 'Amy']
+  Characters Redacted = 53
+
+File : '/home/gnani/Project_1/12.'
+  Redacted Entities : GENDER
+  Destination : 'output/'
+  Words Redacted = 3
+ Unique Words = ['me', 'us', 'you']
+  Characters Redacted = 7
+
+File : '/home/gnani/Project_1/12.'
+  Redacted Entities : DATES
+  Destination : 'output/'
+  Words Redacted = 7
+ Unique Words = ['12/04', 'Mon, 4 Dec 2000']
+  Characters Redacted = 45
+
+File : '/home/gnani/Project_1/12.'
+  Redacted Entities : PHONE
+  Destination : 'output/'
+  Words Redacted = 5
+ Unique Words = ['3-7805', '2000 04', '2000 03', '2000 02']
+  Characters Redacted = 34
+
+File : '/home/gnani/Project_1/12.'
+  Redacted Entities : ADDRESS
+  Destination : 'output/'
+  Words Redacted = 1
+ Unique Words = ['HOU']
+  Characters Redacted = 3
+
+
+
+File : '/home/gnani/Project_1/1.'
+  Redacted Entities : NAME
+  Destination : 'output/'
+  Words Redacted = 11
+ Unique Words = ['mballases@hotmail.com', 'Imbah@aol.com', 'krisy_p@hotmail.com', 'allie_easton@yahoo.com', 'Dad', 'MSN', 'candjhoskins@aol.com', 'CGeorge462@aol.com', 'jessica_n_burke@hotmail.com', 'Brian Hoskins', 'bsteinhart@yahoo.com']
+  Characters Redacted = 15
+
+File : '/home/gnani/Project_1/1.'
+  Redacted Entities : GENDER
+  Destination : 'output/'
+  Words Redacted = 28
+ Unique Words = ['we', 'Your', 'he', 'him', 'me', 'YOU', 'This', 'We', 'our', 'I', 'who', 'it', 'her', 'It', 'man', 'father', 'your', 'my', 'you', 'His', 'He', 'us', 'his', 'there', 'which', 'boy', 'boyfriend', 'this']
+  Characters Redacted = 90
+
+File : '/home/gnani/Project_1/1.'
+  Redacted Entities : DATES
+  Destination : 'output/'
+  Words Redacted = 2
+ Unique Words = ['Mon, 27 Nov 2000']
+  Characters Redacted = 32
+
+File : '/home/gnani/Project_1/1.'
+  Redacted Entities : PHONE
+  Destination : 'output/'
+  Words Redacted = 0
+ Unique Words = []
+  Characters Redacted = 0
+
+File : '/home/gnani/Project_1/1.'
+  Redacted Entities : ADDRESS
+  Destination : 'output/'
+  Words Redacted = 1
+ Unique Words = ['DOWN']
+  Characters Redacted = 4
+
+
+
+File : '/home/gnani/Project_1/2.'
+  Redacted Entities : NAME
+  Destination : 'output/'
+  Words Redacted = 12
+ Unique Words = ["P.J.'s", '--Eric\n_', 'Eric Ellwanger', 'Jay', "Peter Luger's", 'Susie', 'Wolfe, Jason', 'MSN', 'Frito burrito', 'fstiber@dg-studios.com', 'Tara', 'Putnam']
+  Characters Redacted = 22
+
+File : '/home/gnani/Project_1/2.'
+  Redacted Entities : GENDER
+  Destination : 'output/'
+  Words Redacted = 25
+ Unique Words = ['Whatever', 'You', 'me', 'We', 'I', 'some', 'it', 'her', 'It', 'any', 'they', 'your', 'that', 'my', 'you', 'Any', 'someone', 'something', 'us', 'she', 'That', 'there', 'which', 'There', 'all']
+  Characters Redacted = 93
+
+File : '/home/gnani/Project_1/2.'
+  Redacted Entities : DATES
+  Destination : 'output/'
+  Words Redacted = 2
+ Unique Words = ['Thursday, June 21, 2001', 'Mon, 25 Jun 2001']
+  Characters Redacted = 39
+
+File : '/home/gnani/Project_1/2.'
+  Redacted Entities : PHONE
+  Destination : 'output/'
+  Words Redacted = 0
+ Unique Words = []
+  Characters Redacted = 0
+
+File : '/home/gnani/Project_1/2.'
+  Redacted Entities : ADDRESS
+  Destination : 'output/'
+  Words Redacted = 1
+ Unique Words = ['America']
+  Characters Redacted = 7
+
+
+
+File : '/home/gnani/Project_1/7.'
+  Redacted Entities : NAME
+  Destination : 'output/'
+  Words Redacted = 18
+ Unique Words = ['Mark Taylor', 'Carol St Clair', 'anne.koehler@enron.com', 'Sara Shackleton', 'Brent Hendry', 'Anthony Campos', 'Folders\\All', 'Stephanie Panus', 'Mary Cook', 'Leslie Campbell', 'Enron North America Corp.', 'frank.sayre@enron.com', 'Samantha Boyd', 'Robert Bruce', 'Anne C Koehler', 'Angela Davis', 'Tana Jones\nX-cc', 'Susan Bailey']
+  Characters Redacted = 50
+
+File : '/home/gnani/Project_1/7.'
+  Redacted Entities : GENDER
+  Destination : 'output/'
+  Words Redacted = 2
+ Unique Words = ['us', 'you']
+  Characters Redacted = 5
+
+File : '/home/gnani/Project_1/7.'
+  Redacted Entities : DATES
+  Destination : 'output/'
+  Words Redacted = 1
+ Unique Words = ['Wed, 18 Apr 2001']
+  Characters Redacted = 16
+
+File : '/home/gnani/Project_1/7.'
+  Redacted Entities : PHONE
+  Destination : 'output/'
+  Words Redacted = 3
+ Unique Words = ['713) 646-3490', '713) 345-7732', '77002-7361']
+  Characters Redacted = 36
+
+File : '/home/gnani/Project_1/7.'
+  Redacted Entities : ADDRESS
+  Destination : 'output/'
+  Words Redacted = 4
+ Unique Words = [Floor, 'Houston', 'Texas', North]
+  Characters Redacted = 22
+
+
+
+File : '/home/gnani/Project_1/test_file.ip'
+  Redacted Entities : PHONE
+  Destination : 'output/'
+  Words Redacted = 4
+ Unique Words = ['713-588-5176', '403) 974-6936', '713-853-3917', '713)345-5878']
+  Characters Redacted = 49
+
+File : '/home/gnani/Project_1/test_file.ip'
+  Redacted Entities : ADDRESS
+  Destination : 'output/'
+  Words Redacted = 12
+ Unique Words = ['South Africa', floor, East, 'London', 'Calgary', Suite, 'Houston', South, 'U.S.', Street, 'DC', 'Washington']
+  Characters Redacted = 73
+
+File : '/home/gnani/Project_1/test_file.ip'
+  Redacted Entities : IP Addresses
+  Destination : 'output/'
+  Words Redacted = 4
+ Unique Words = ['64.216.90.105', '151.164.1.8', '255.255.255.248', '64.216.90.110']
+  Characters Redacted = 52
+
+
+

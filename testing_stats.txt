@@ -1,0 +1,9 @@
+File : '/home/gnani/Project_1/tests/test_file.txt'
+  Redacted Entities : IP Addresses
+  Destination : 'testing_stats.txt'
+  Words Redacted = 4
+ Unique Words = ['64.216.90.110', '255.255.255.248', '151.164.1.8', '64.216.90.105']
+  Characters Redacted = 52
+
+
+

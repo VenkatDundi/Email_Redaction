@@ -1,0 +1,14 @@
+References:
+
+Projectpro | https://www.projectpro.io/recipes/install-and-use-spacy-models | Helped in understanding various spacy models
+Stack Overflow | https://stackoverflow.com/questions/69284181/modulenotfounderror-no-module-named-en-core-web-sm | Helped in understanding usage of en-core-web-sm
+Stack Overflow | https://stackoverflow.com/questions/40288323/what-do-spacys-part-of-speech-and-dependency-tags-mean | Helped in understanding POS tagging in spacy
+Real Python | https://realpython.com/natural-language-processing-spacy-python/#part-of-speech-tagging | Helped in understanding part-of-speech-tagging
+symbl | https://symbl.cc/en/2588/ | Helped in understanding Block Character properties
+Analytics Vidya | https://discuss.analyticsvidhya.com/t/typeerror-argument-other-has-incorrect-type-expected-spacy-tokens-token-token-got-str-in-spacy/67014 | Helped in understanding Spacy token type error
+Avinash Reddy Nuthalapati | avi.n-54@ou.edu | Helped in understanding parameter processing from individual function to the main function
+GeeksforGeeks | https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy/ | Helped in understanding Named Entity Recognition in Spacy
+TowardsDataScience | https://towardsdatascience.com/a-short-introduction-to-nlp-in-python-with-spacy-d0aa819af3ad | Helped in understanding the text processing functions 
+spacy.io | https://spacy.io/usage/spacy-101 | Helped in understanding Linguistic annotations and tokenization functions and attributes
+onlinegdb | https://www.onlinegdb.com/online_python_interpreter | Helped in validating regular expressions
+Google | https://developers.google.com/edu/python/regular-expressions | Helped in understanding various methods in regular expressions
